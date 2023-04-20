@@ -2,6 +2,8 @@
 
 This is an example full stack web application built in Python with the Flask framework. This application implements Google Login and interfaces with a Google Sheets datastore.
 
+<img width="750" alt="Screenshot 2023-04-19 at 8 10 15 PM" src="https://user-images.githubusercontent.com/1328807/233225795-2bac1806-37de-4981-a635-bfef72506ad5.png">
+
 ## Setup
 
 ### Prerequisites
