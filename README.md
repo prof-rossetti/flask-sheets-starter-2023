@@ -81,14 +81,5 @@ Run the web application (then view in the browser at localhost:5000):
 flask run
 ```
 
-## Testing
-
-Running tests, as configured by the "conftest.py" file and defined in the "test" directory:
-
-```sh
-pytest
-```
-
-## [Continuous Integration](/setup/ACTIONS.md)
 
 ## [Deploying](/setup/RENDER.md)
