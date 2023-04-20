@@ -9,7 +9,7 @@ Create a new Google Sheet document, or copy this [starter sheet](https://docs.go
 
 Modify the document's sharing settings to grant "edit" privileges to the "client email" address specified in the service account credentials file.
 
-Note the document's identifier from its URL (the underlined part of "https://docs.google.com/spreadsheets/d/_______/"), and set as an environment variable called `GOOGLE_SHEETS_DOCUMENT_ID` (see README).
+Note the document's identifier from its URL (i.e. `https://docs.google.com/spreadsheets/d/____________`), and set as an environment variable called `GOOGLE_SHEETS_DOCUMENT_ID` (see README).
 
 ### Schema Setup
 
