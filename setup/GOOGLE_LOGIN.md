@@ -19,5 +19,6 @@ Click the button with the plus icon to "Create Credentials", and choose "Create 
 Choose a "Web application" type, give it a name. Set the following "Authorized Redirect URIs":
 
   + http://localhost:5000/auth/google/callback
+  + http://127.0.0.1:5000/auth/google/callback
 
 After the client is created, note the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`, and set them as environment variables in the ".env" file (see README).
