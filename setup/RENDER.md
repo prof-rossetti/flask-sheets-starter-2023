@@ -19,7 +19,7 @@ gunicorn "web_app:create_app()"
 
 Choose instance type of "free".
 
-Under the "Advanced" options, set the following environment variable (specifying your own API Key value):
+Under the "Advanced" options, set the following environment variables (specifying your own API Key values):
 
 
 ```sh
@@ -29,6 +29,8 @@ GOOGLE_CREDENTIALS_FILEPATH="/etc/secrets/google-credentials.json"
 GOOGLE_SHEETS_DOCUMENT_ID="___________"
 SECRET_KEY="your secret key here"
 ```
+
+> NOTE: the `GOOGLE_CREDENTIALS_FILEPATH` value needs to be exactly "/etc/secrets/google-credentials.json", to work with the configuration below.
 
 Also set a [secret configuration file](https://community.render.com/t/using-google-application-credentials-json/6885) called "google-credentials.json", and paste the contents from your google service account credentials file. The render web service will then have access to the file as "/etc/secrets/google-credentials.json" (as referenced by the `GOOGLE_CREDENTIALS_FILEPATH` variable above).
 
